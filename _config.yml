@@ -16,6 +16,9 @@ sections: [
     ['doc', 'Documentation'],
     ['tut', 'Tutorial'],
     ['ref', 'Reference'],
+    ['inst', 'Instructions'],
+    ['ctrl', 'Controls'],
+    ['lib', 'Libraries'],
     ['dev', 'Developers'],
     ['post', 'Posts']
 ]
