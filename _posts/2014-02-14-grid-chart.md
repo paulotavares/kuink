@@ -18,13 +18,15 @@ The databind must be organized to be transposed. Example:
 In this case, the pivotLines are only the id field. 
 The pivotcols are only the category and pivotdata is the count field. Like this
 
-```<Grid [...] pivot="true" pivotlines="id" pivotcols="category" pivotdata="count" [...] >```
+```xml
+<Grid [...] pivot="true" pivotlines="id" pivotcols="category" pivotdata="count" [...] >
+```
 
 
 Full Code Example
 
 
-```
+```xml
 <Grid name="[name]" title="[title]" subtitle="[subtitle]" position="[position]" pivot="true" pivotlines="[id]" pivotcols="[X axis column]" pivotdata="[series columns separated by comma]" view="chart_v2">
         <View>
             <Param name="yAxisTitle">[vertical axis title]</Param>
