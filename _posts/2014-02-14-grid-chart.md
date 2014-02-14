@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Grid - Chart"
-category: crtl
+category: ctrl
 date: 2014-02-14 15:01:28
 ---
 
