@@ -22,6 +22,8 @@ The pivotcols are only the category and pivotdata is the count field. Like this
 
 
 Full Code Example
+
+
 ```
 <Grid name="[name]" title="[title]" subtitle="[subtitle]" position="[position]" pivot="true" pivotlines="[id]" pivotcols="[X axis column]" pivotdata="[series columns separated by comma]" view="chart_v2">
         <View>
