@@ -18,7 +18,7 @@ The databind must be organized to be transposed. Example:
 In this case, the pivotLines are only the id field. 
 The pivotcols are only the category and pivotdata is the count field. Like this
 
-``<Grid [...] pivot="true" pivotlines="id" pivotcols="category" pivotdata="count" [...] >``
+```<Grid [...] pivot="true" pivotlines="id" pivotcols="category" pivotdata="count" [...] >```
 
 
 Full Code Example
